@@ -1,0 +1,66 @@
+.container{
+    font-family: 'Nuosu SIL', serif;
+}
+.profile--Index{
+    display: flex;
+    justify-content: center;
+}
+.bg--image{
+    position:absolute;
+}
+.bg--image img{    
+    position: fixed;
+    transform: translate(0px, -220%);
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+/* .profile--dark, .profile--ligth{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    transform: translate(0px, 70px);
+    width:70%;
+}
+.profile--img{
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+
+.profile--text h1{
+    font-size: 2rem;
+}
+.profile--text h3{
+    font-size: 1.2rem;
+    opacity: .7;
+}
+
+@media screen and (min-width:600px) {
+    .profile--dark, .profile--ligth{
+        display: flex;
+        align-items: center;     
+    }
+    .profile--text{
+        border: 1px solid red;
+        transform: translate(-70%);
+        width: 70%;
+    }
+    .profile--img img{
+        width: 40%;
+    }
+    .profile--img{
+        border:2px solid red;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+} */
