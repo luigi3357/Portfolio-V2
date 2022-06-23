@@ -35,7 +35,7 @@ export default function NavBar({setTheme, theme}) {
 
                     <Link className="items--space" href="#projects">PROYECTOS</Link>
 
-                    <Link className="items--space"href="#">HABILIDADES</Link>
+                    <Link className="items--space"href="#skills">HABILIDADES</Link>
 
                     <Link className="items--space"href="#">CONTACTO</Link>
 

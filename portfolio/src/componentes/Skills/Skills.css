@@ -1,0 +1,31 @@
+.skills--ligth,
+.skills--dark {
+    /* display: flex; */
+    transform: translate(0px, 100px);
+}
+
+.container_all--skills {
+    display: block;
+    justify-content: space-around;
+}
+
+.container--skill {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    width: 90%;
+}
+.skill--item {
+    background-color: var(--bg-color);
+    display: block;
+    justify-content: center;
+    /* align-self: center; */
+    border-radius: var(--border-radius);
+    border: 1px solid red;
+    /* padding: 2%; */
+    max-width: 15%;
+    max-height: 130px;
+}
+.skill--item img{
+    max-width: 40%;
+}

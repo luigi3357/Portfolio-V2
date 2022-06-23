@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.container--dark, .profile--dark, .project--dark{
+.container--dark, .profile--dark, .project--dark, .skills--dark{
     --text-color: hsl(0, 0%, 83%);
     --bg-color: #232C4C;
     --bg-card-color: hsl(0, 0%, 20%);
@@ -27,7 +27,7 @@ html{
 .profile--dark, .project--dark{
     --primary-color: #ccb4da;
 }
-.container--ligth, .profile--ligth, .project--ligth{
+.container--ligth, .profile--ligth, .project--ligth, .skills--ligth{
 
     --primary-color: #9B6CB8;
     --text-color: hsl(0, 0%, 31%);

@@ -3,11 +3,11 @@ import LibraryDogs from "../../assets/LibraryDogs.jpg"
 import petcare from "../../assets/PetCare.jpg"
 
 import "./Projects.css"
-export default function Projects({ theme, setTheme }) {
+export default function Projects({ theme }) {
     return (
         <div id="projects" className={theme === true ? "project--dark" : "project--ligth"}>
             <div className="container--allprojects">
-                <h1 >Mis Proyectos</h1>
+                <h1>Mis Proyectos</h1>
                 <div className="container--Projects">
                     <article className="project" >
                         <h1>Library Dogs:</h1>                        
