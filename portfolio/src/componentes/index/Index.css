@@ -10,7 +10,7 @@
 }
 .bg--image img{    
     position: fixed;
-    transform: translate(0px, -220%);
+    transform: translate(0px, -190%);
     z-index: -1;
 }
 

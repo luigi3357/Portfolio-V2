@@ -1,13 +1,25 @@
 import React from "react";
 import LibraryDogs from "../../assets/LibraryDogs.jpg"
 import petcare from "../../assets/PetCare.jpg"
+import {
+    Link,
+    Image,
+    Stack,
+    Text,
+    IconButton,
+    Box,
+    Button,
+    Heading,
+    Center,
+  } from "@chakra-ui/react";
+// import portfolio from "../../assets/portfolio.png"
 
 import "./Projects.css"
 export default function Projects({ theme }) {
     return (
         <div id="projects" className={theme === true ? "project--dark" : "project--ligth"}>
             <div className="container--allprojects">
-                <h1>Mis Proyectos</h1>
+      <Center bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="5xl" fontFamily="'Nuosu SIL', serif" fontWeight="extrabold">Mis Proyectos</Center>
                 <div className="container--Projects">
                     <article className="project" >
                         <h1>Library Dogs:</h1>                        
@@ -60,8 +72,8 @@ export default function Projects({ theme }) {
                             En este proyecto trabaje con un grupo de 8 personas mas enfocado al Back-End
                             donde trabajamos con Nodejs, PostgreSQL, Exprés, Sequelize, Nodemailer, Auth0, Mercado Pago. Además
                             ayude en la resolución de problemas y creacion de componentes en el Front-End. </p>
-                    </article>                    
-                </div>
+                    </article>  
+                     </div>
             </div>
         </div>
 

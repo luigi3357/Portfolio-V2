@@ -10,7 +10,10 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Nuosu SIL', serif;
 
+}
 .container--dark, .profile--dark, .project--dark, .skills--dark{
     --text-color: hsl(0, 0%, 83%);
     --bg-color: #232C4C;
@@ -96,6 +99,10 @@ img {
         align-items: center;
         justify-content: space-around;
     }
+    .items--space{
+    font-family: 'Nuosu SIL', serif;
+
+    }
     @media screen and (min-width:0px) {
         .container--dark, .container--ligth{
             display: none;
@@ -123,7 +130,7 @@ img {
         padding: 1px 0px;
         margin-right: 4px;
         cursor: pointer;
-        font-size: .6rem;
+        font-size: .8rem;
     }   
     .toggle--logo{
         /* border: solid 1px red; */

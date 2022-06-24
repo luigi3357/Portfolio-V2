@@ -5,20 +5,23 @@ import "./Index.css"
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import Contact from "../Contact/Contact";
+
 
 export default function Index() {
     const [theme, setTheme] = useState(false);
     
     return (
-        <div className="container" >
+        <div>
             <NavBar theme={theme} setTheme={setTheme}/> 
+            <Contact theme={theme} setTheme={setTheme}/>
             <div className="profile--Index">
             <About  theme={theme} setTheme={setTheme} />
             </div>
-            <Projects theme={theme} setTheme={setTheme}/>
             <div className="bg--image">
             <img src={logo2} alt=""/>
             </div>
+            <Projects theme={theme} setTheme={setTheme}/>
             <Skills theme={theme} setTheme={setTheme}/>
         </div>
     )

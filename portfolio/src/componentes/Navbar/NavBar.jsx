@@ -18,7 +18,7 @@ export default function NavBar({setTheme, theme}) {
         <div className={theme === true ? "container--dark" : "container--ligth"}>
             <div className="switches">
             <div className="toggle--logo">
-                <img src={theme === true ? logo1 : logo2} alt="Logo Personal" />
+               <Link href="#home"><img src={theme === true ? logo1 : logo2} alt="Logo Personal" /></Link>
             </div>
             
                         <div onClick={e => handleDark(e)} className="toggle-theme2">
@@ -29,7 +29,7 @@ export default function NavBar({setTheme, theme}) {
 
             <div className="items">
 
-                    <Link className="items--space" href="#">INICIO</Link>
+                    <Link className="items--space" href="#home">INICIO</Link>
 
                     <Link className="items--space" href="#about">SOBRE MI</Link>
 
@@ -37,7 +37,7 @@ export default function NavBar({setTheme, theme}) {
 
                     <Link className="items--space"href="#skills">HABILIDADES</Link>
 
-                    <Link className="items--space"href="#">CONTACTO</Link>
+                    {/* <Link className="items--space"href="#">CONTACTO</Link> */}
 
 
                 </div>

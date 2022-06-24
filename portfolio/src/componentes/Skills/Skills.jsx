@@ -15,7 +15,7 @@ import firebase from "../../assets/firebase.jpg"
 import java from "../../assets/java.png"
 import chakra from "../../assets/chakra.svg"
 import netbeans from "../../assets/netbeans.jpg"
-import { Image, Text, Center, useMediaQuery, Grid, GridItem } from '@chakra-ui/react'
+import { Image, Text, Center, useMediaQuery, Grid, GridItem ,Skeleton} from '@chakra-ui/react'
 
 import "./Skills.css"
 export default function Skills({ setTheme, theme }) {
@@ -24,6 +24,7 @@ export default function Skills({ setTheme, theme }) {
         <div id="skills">
         <div className={theme === true ? "skills--dark" : "skills--ligth"}>
             <Center bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="xl" fontWeight="extrabold">Back End</Center>
+            <Skeleton startColor='#7928CA' endColor='#FF0080' height='3px' />
             <Center p="3">
             <Grid templateColumns={isLargerThan600 ?'repeat(5,7rem)':'repeat(2, 7rem)'} gap={6}>
                 <GridItem boxShadow='outline' p="3" rounded='md' bgColor={theme === true ? "#232C4C" : "#e4e1e1"}>
@@ -76,7 +77,9 @@ export default function Skills({ setTheme, theme }) {
                 </GridItem>              
             </Grid>            
             </Center>  
-            <Center bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="xl" fontWeight="extrabold">Front End</Center>
+            <Center bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="xl" fontWeight="extrabold">Front End
+            </Center>
+            <Skeleton startColor='#7928CA' endColor='#FF0080' height='3px' />
             <Center p="3">
             <Grid templateColumns={isLargerThan600?'repeat(5,7rem)':'repeat(2, 7rem)'} gap={6}>
                 <GridItem boxShadow='outline' p="3" rounded='md' bgColor={theme === true ? "#232C4C" : "#e4e1e1"}>
@@ -138,6 +141,7 @@ export default function Skills({ setTheme, theme }) {
             </Grid>            
             </Center>   
             <Center bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text" fontSize="xl" fontWeight="extrabold">Herramientas</Center>
+            <Skeleton startColor='#7928CA' endColor='#FF0080' height='3px' />
             <Center p="3">
             <Grid templateColumns={isLargerThan600?'repeat(5,7rem)':'repeat(2, 7rem)'} gap={6}>
             <GridItem boxShadow='outline' p="3" rounded='md' bgColor={theme === true ? "#232C4C" : "#e4e1e1"}>

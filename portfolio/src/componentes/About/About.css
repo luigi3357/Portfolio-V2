@@ -14,10 +14,15 @@
 }
 .profile--text h1{
     font-size: 2rem;
+    font-family:'Nuosu SIL', serif
 }
 .profile--text h3{
     font-size: 1.2rem;
     opacity: .7;
+    font-family:'Nuosu SIL', serif
+}
+.profile--text p{
+    font-family:'Nuosu SIL', serif
 }
 .container-about{
     display: block;
@@ -28,6 +33,7 @@
     justify-content: center;
     font-size: 2rem;
     background:none;
+    font-family:'Nuosu SIL', serif
 }
 @media screen and (min-width:320px) {
     .profile--dark, .profile--ligth{
